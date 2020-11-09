@@ -1,0 +1,86 @@
+
+
+.box{ 
+	width: 300px;
+	/* border-bottom: 20px solid #03a9f4; */
+	border-bottom: 20px solid #FA827A;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+	
+}
+.box-b{ 
+	/* 줄바꿈방지 */
+	display: inline-block; 
+	text-decoration: none;
+	color: #fff;
+	/* font-weight: bold; */
+	/* background-color: #03a9f4; */
+	background-color: #FA827A;
+	
+	font-size: 18px;
+	border: 1px;
+	margin: 5px;
+	/* background-image: url(''); */
+}
+
+.box h5{
+
+	color : #fff;
+	/* background: #03a9f4; */
+	background: #FA827A;
+	
+	padding: 10px 20px;
+	font-size: 20px;
+	/* font-weight: 700; */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+}
+
+.box ul{
+	position: relative;
+	background: #fff;
+	
+}
+
+.box ul li {
+	list-style: none;
+	padding: 10px;
+	width: 80%;
+	background: #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.1);
+	transition: transform 0.5s;
+}
+
+.box ul li:hover{
+	transform: scale(1.1);
+	z-index: 100;
+	background : #FA827A;
+	/* box-shadow: 0 5px 25px rgba(0.0,0,.2); */
+	color : #fff;
+}
+
+.box ul li span{
+	width: 20px;
+	height : 20px;
+	text-align: center;
+	line-height : 20px;
+	background: #FA827A;
+	
+	color : #fff;
+	/* #FA827A */
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size : 12px;
+	/* font-weight: 600; */
+	transform : translateY(-2px)
+}
+.box ul li:hover span{
+	background: #fff;
+	/* color : #25bcff; */
+	color : #FA827A;
+	
+}
+

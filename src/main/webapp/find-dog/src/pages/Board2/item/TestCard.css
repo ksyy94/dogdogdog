@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+ .dog-card h1,.dog-card p {
+
+	margin: 0;
+
+	padding: 0;
+
+    border: 0;
+    
+
+
+	/* font-size: 100%; */
+
+	/* vertical-align: baseline; */
+
+}
+
+.dog-card {
+
+	height: 220px;
+    
+	width: 400px;
+
+	border-radius: 15px;
+
+	display: inline-block;
+
+	margin-top: 20px;
+
+	margin-left: 10px;
+
+	margin-bottom: 20px;
+
+	position: relative;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    overflow: hidden;
+    
+    /* background-color: #e5dfd0 */
+    
+
+}
+
+
+
+.dog-card-header {
+
+	-webkit-transition: 0.5s; /*사파리 & 크롬*/
+
+    -moz-transition: 0.5s;  /*파이어폭스*/
+
+    -ms-transition: 0.5s;	/*인터넷 익스플로러*/
+
+    -o-transition: 0.5s;  /*오페라*/
+
+    transition: 0.5s;
+
+	width: 100%;
+
+    /* 시작시 윗공간 여백조절 270*/
+	height: 70px;
+
+	border-radius: 15px 15px 0 0;
+
+	/* background-image: url("../img/t1.jpg"); */
+
+	background-size: 100% 280px;
+
+    background-repeat: no-repeat;	
+    
+
+}
+
+.dog-card:hover .dog-card-header  {
+    opacity: 0.8;
+    
+    /* 호버시 위쪽여백설정 100*/
+    height: 0px;
+    
+}
+
+/* 동그란 원 */
+.dog-card-header-is_closed{
+
+    background-color: #EF5A31 ;
+
+    color: #FFF ;
+
+    font-weight: bold ;
+
+    text-align: center ;
+
+    float: right;
+
+    margin: 0px 15px 0 0;
+
+    border-radius: 50%;
+
+    font-weight: bold;
+
+    padding: 10px 10px;
+
+    line-height: 20px;
+    
+
+}
+
+
+
+.dog-card-h1 {
+    
+    font-size: 40px;
+    block-size: 40px;
+    
+
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+
+    
+
+}
+/* 
+.dog-card-username{
+    
+        
+
+} */
+
+.dog-card-body {
+    
+    
+}
+
+
+
+
+
+.dog-card-body-header{
+
+    /* 줄간격 */
+	line-height: 25px;
+
+    margin: 10px 20px 0px 20px;
+    
+    /* overflow: hidden; */
+
+}
+
+
+
+
+.dog-card-body-description  {
+
+    
+    
+    opacity: 0;
+
+    color: #757B82;
+    
+
+    line-height: 25px;
+
+    -webkit-transition: .2s ease-in-out; /*사파리&크롬*/
+
+    -moz-transition: .2s ease-in-out; /*파이어폭스*/
+
+    -ms-transition: .2s ease-in-out; /*익스플로러*/
+
+    -o-transition: .2s ease-in-out; /*오페라*/
+
+    transition : .2s ease-in-out;
+
+    overflow: hidden;
+
+	height: 130px;
+
+    margin: 5px 20px;
+    
+
+}
+
+/* .dog-card:hover{
+    height: 100%;
+    transition: all 1000ms;
+} */
+
+/* 호버시 나타날 하단 */
+.dog-card:hover .dog-card-body-description {
+    
+    border: 2px solid #FFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    opacity: 1;
+
+    
+
+    -webkit-transition: .5s ease-in-out;
+
+    -moz-transition: .5s ease-in-out;
+
+    -ms-transition: .5s ease-in-out;
+
+    -o-transition: .5s ease-in-out;
+
+    transition : .5s ease-in-out;
+
+    overflow: scroll;
+    
+
+}
+/* .dog-card:hover .dog-card-body-header {
+    opacity: 0;
+} */
+
+
+/* 태그설정 */
+.dog-card-body-hashtag {
+
+	color: #2478FF;
+
+    font-style: italic;
+    
+
+}
+.dog-card-body-footer {
+
+  	position: absolute; 
+
+  	margin-top: 15px;
+
+  	margin-bottom: 6px;
+
+    bottom: 0; 
+
+    width: 314px;
+
+    font-size: 14px;
+
+    color: #9FA5A8;
+
+    padding: 0 15px;
+    
+    
+
+}
+/* .dog-icon {
+
+    
+    display: inline-block;
+
+    vertical-align: middle;
+
+    margin-right: 2px;
+
+} */
+.dog-reg_date {
+
+    color: black;
+	float: right;
+
+}
+.dog-button{
+    position: relative;
+    left: 120px;
+    /* padding: 2px; */
+    
+}
+
+
